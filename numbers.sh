@@ -1,6 +1,6 @@
 #!/bin/bash
 #numbers.sh
-#sielman
+#Grant Sielman
 echo "Enter a positive number: "
 read NUMBER
 
