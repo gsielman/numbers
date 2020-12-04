@@ -5,7 +5,7 @@ echo "Enter a positive number: "
 read NUMBER
 
 N=1
-chmod 755
+chmod 755 numbers.sh
 echo "Enter a positive number: "
 read NUMBER
 while [ "$N" -le "$NUMBER" ]
