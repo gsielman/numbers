@@ -1,6 +1,6 @@
 #! /bin/bash
 # numbers.sh
-# Grant Sielman
+# sielman
 echo "Enter a positive number: "
 read NUMBER
 chmod 755
