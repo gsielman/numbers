@@ -3,6 +3,8 @@
 # sielman
 echo "Enter a positive number: "
 read NUMBER
+
+N=1
 chmod 755
 echo "Enter a positive number: "
 read NUMBER
