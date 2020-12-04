@@ -3,12 +3,18 @@
 # Grant Sielman
 echo "Enter a positive number: "
 read NUMBER
-while echo "$NUMBER" | egrep -E -v "^[1-1000]$" >/dev/null 2>&1
+chmod 755
+echo "Enter a positive number: "
+read NUMBER
+while [ "$N" -le "$number" ]
 do
-	if [ ((foo%2)) -eq 0 ];
-then
-    echo "even";
-else
-    echo "odd";
-fi
+        if $((N%2)) -eq 0
+        then
+         echo "even"
+        else
+         echo "odd"
+        fi
 
+
+        N=$((N+1))
+done
